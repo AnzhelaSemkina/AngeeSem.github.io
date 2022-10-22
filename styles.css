@@ -1,5 +1,5 @@
 body {
-  background-image: url("source/img/background.svg");
+  background-image: url(source/img/background.svg);
   color: #333;
   font-size: 18px;
   font-family: sans-serif;
