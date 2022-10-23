@@ -1,5 +1,5 @@
 body {
-  background-image: url('/AngeeSem.github.io/source/img/background.svg');
+  background-image: url("/AngeeSem.github.io/source/img/background.svg");
   color: #333;
   font-size: 18px;
   font-family: sans-serif;
@@ -16,32 +16,34 @@ main {
   position: fixed;
   top: 12vh;
   left: 15vh;
-
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-
   height: 65vh;
   width: 20vw;
-
   background: rgba(62, 130, 126, 59%);
-
+  color: #fff;
+  justify-content: center;
+  align-items: center;
 }
+
 .name {
   display: block;
   height: auto;
   width: auto;
   text-align: center;
-
+  text-shadow: 0 0 5px rgba(7, 82, 77, 100%);
 }
 
 .primary img {
-  height: auto;
-  width: auto;
+  height: 15vw;
+  width: 15vw;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2vw rgba(7, 82, 77, 100%);
 }
 
 section {
-
   display: flex;
   flex-direction: column;
   position: relative;
@@ -50,8 +52,7 @@ section {
   left: 35vw;
   height: auto;
   width: 60vw;
-
-  background-color: white;
+  background-color: #fff;
 }
 
 section h2 {
